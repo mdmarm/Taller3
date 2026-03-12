@@ -22,9 +22,9 @@ Estructura de Clases:
 Cómo ejecutar: 
 1) Abre el proyecto en Visual Studio Code.
 2) Compila todos los archivos .java:
-    javac *.java
+    - javac *.java
 3) Ejecuta el programa principal
-    java Main
+    - java Main
 
 
 Uso: 
