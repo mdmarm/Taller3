@@ -37,18 +37,25 @@ Uso:
 El menú principal permite seleccionar las opciones por número. Sigue las instrucciones en pantalla
 para registrar usuarios, préstamos, devoluciones y agregar materiales.
 
-Menú:
+
+
+Capturas de Ejecución:
+
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004051.png)
+Menú:
 
-Ejemplo Material: 
+
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004215.png)
+Ejemplo Material:
 
-Prestar Material:
+
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004342.png)
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004413.png)
+Prestar Material:
 
-Devolver Material: 
+
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004520.png)
+Devolver Material: 
 
 
 Requisitos: 
@@ -56,18 +63,18 @@ Requisitos:
 - Visual Studio Code (opcional).
 
 
-Instalación
+Instalación:
 Si no tienes Java instalado, descárgalo desde java.com.
 
 
-Contribuciones
+Contribuciones:
 Si deseas mejorar el proyecto, puedes enviar sugerencias o pull requests.
 
 
-Autores
+Autores:
 - María del Mar Monsalve
 - Nicolás Saldarriaga
 
 
-Licencia
+Licencia:
 Este proyecto es de uso académico. Puedes adaptarlo y compartirlo libremente.
