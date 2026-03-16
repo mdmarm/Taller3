@@ -19,6 +19,12 @@ Estructura de Clases:
 - Prestamo: Gestiona los préstamos y devoluciones.
 
 
+Diagrama de Clases
+Puedes visualizar el diagrama de clases en el archivo: DiagramaDeClases.png
+
+![Diagrama de Clases](diagramas/DiagramaDeClases.png)
+
+
 Cómo ejecutar: 
 1) Abre el proyecto en Visual Studio Code.
 2) Compila todos los archivos .java:
@@ -31,7 +37,37 @@ Uso:
 El menú principal permite seleccionar las opciones por número. Sigue las instrucciones en pantalla
 para registrar usuarios, préstamos, devoluciones y agregar materiales.
 
+Menú:
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004051.png)
+
+Ejemplo Material: 
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004215.png)
+
+Prestar Material:
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004342.png)
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004413.png)
+
+Devolver Material: 
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004520.png)
+
 
 Requisitos: 
 - Java 8 o superior.
 - Visual Studio Code (opcional).
+
+
+Instalación
+Si no tienes Java instalado, descárgalo desde java.com.
+
+
+Contribuciones
+Si deseas mejorar el proyecto, puedes enviar sugerencias o pull requests.
+
+
+Autores
+- María del Mar Monsalve
+- Nicolás Saldarriaga
+
+
+Licencia
+Este proyecto es de uso académico. Puedes adaptarlo y compartirlo libremente.
