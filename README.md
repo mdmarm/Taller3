@@ -19,8 +19,7 @@ Estructura de Clases:
 - Prestamo: Gestiona los préstamos y devoluciones.
 
 
-Diagrama de Clases
-Puedes visualizar el diagrama de clases en el archivo: DiagramaDeClases.png
+Diagrama de Clases:
 
 ![Diagrama de Clases](diagramas/DiagramaDeClases.png)
 
@@ -41,21 +40,27 @@ para registrar usuarios, préstamos, devoluciones y agregar materiales.
 
 Capturas de Ejecución:
 
-![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004051.png)
 Menú:
 
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004051.png)
 
-![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004215.png)
+
 Ejemplo Material:
 
+![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004215.png)
+
+
+Prestar Material:
 
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004342.png)
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004413.png)
-Prestar Material:
 
+
+Devolver Material: 
 
 ![Menú Principal](capturasEjecucion/Captura%20de%20pantalla%202026-03-12%20004520.png)
-Devolver Material: 
+
+
 
 
 Requisitos: 
