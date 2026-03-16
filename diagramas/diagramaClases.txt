@@ -1,0 +1,101 @@
+@startuml Biblioteca
+skinparam backgroundColor #000000
+skinparam defaultTextAlignment center
+skinparam class {
+    BackgroundColor<<Material>> #4B94B9
+    BackgroundColor<<Libro>> #A74BB9
+    BackgroundColor<<Revista>> #B94B94
+    BackgroundColor<<Pelicula>> #D3317F
+    BackgroundColor<<Usuario>> #8769C4
+    BackgroundColor<<Prestamo>> #697CC9
+    FontColor #000000
+    BorderColor #FFFFFF
+    ArrowColor #FFFFFF
+    FontSize 16
+}
+
+abstract class MaterialBibliografico <<Material>> {
+    - id : int
+    - titulo : String
+    - disponible : boolean
+    - diasMaximosPrestamo : int
+    - multaPorDia : double
+    - contadorPrestamos : int
+    - multaAcumulada : double
+    + getId() : int
+    + getTitulo() : String
+    + isDisponible() : boolean
+    + setDisponible(boolean)
+    + getDiasMaximosPrestamo() : int
+    + getMultaPorDia() : double
+    + getContadorPrestamos() : int
+    + getMultaAcumulada() : double
+    + setMultaAcumulada(double)
+    + incrementarContadorPrestamos()
+    + mostrarInformacion()
+    + calcularMulta(int) : double
+}
+
+class Libro <<Libro>> {
+    - paginas : int
+    - autor : String
+    + Libro(int, String, int, String)
+    + mostrarInformacion()
+    + calcularMulta(int) : double
+}
+
+class Revista <<Revista>> {
+    - periodicidad : String
+    - numeroEdicion : int
+    + Revista(int, String, String, int)
+    + mostrarInformacion()
+    + calcularMulta(int) : double
+}
+
+class Pelicula <<Pelicula>> {
+    - duracionMinutos : int
+    - director : String
+    + Pelicula(int, String, int, String)
+    + mostrarInformacion()
+    + calcularMulta(int) : double
+}
+
+class Usuario <<Usuario>> {
+    - id : int
+    - nombre : String
+    - email : String
+    - multaAcumulada : double
+    + Usuario(int, String, String)
+    + getId() : int
+    + getNombre() : String
+    + getEmail() : String
+    + getMultaAcumulada() : double
+    + agregarMulta(double)
+    + mostrarDatos()
+}
+
+class Prestamo <<Prestamo>> {
+    - usuario : Usuario
+    - material : MaterialBibliografico
+    - fechaPrestamo : LocalDate
+    - fechaDevolucion : LocalDate
+    - multaCalculada : double
+    - devuelto : boolean
+    + Prestamo(Usuario, MaterialBibliografico, LocalDate)
+    + devolver(LocalDate)
+    + getUsuario() : Usuario
+    + getMaterial() : MaterialBibliografico
+    + getFechaPrestamo() : LocalDate
+    + getFechaDevolucion() : LocalDate
+    + getMultaCalculada() : double
+    + isDevuelto() : boolean
+}
+
+MaterialBibliografico <|-- Libro
+MaterialBibliografico <|-- Revista
+MaterialBibliografico <|-- Pelicula
+
+Prestamo --> Usuario
+Prestamo --> MaterialBibliografico
+
+@enduml
